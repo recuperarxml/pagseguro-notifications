@@ -119,7 +119,7 @@
 	}  
 	catch(exception $e) {
 		$name = 'log3-insert-error-' . $date . '.txt';
-     	$file = fopen($name, 'a');
+		$file = fopen($name, 'a');
 		fwrite($file, 'Erro de insert: ' .$e );
 		fclose($file);
 	}
