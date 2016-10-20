@@ -47,3 +47,5 @@
 	$comprador_cidade      = $transaction -> shipping -> address -> city;
 	$comprador_uf          = $transaction -> shipping -> address -> state;
 	$comprador_pais        = $transaction -> shipping -> address -> country;
+
+	
